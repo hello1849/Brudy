@@ -179,7 +179,7 @@ tool.Equipped:Connect(onEquipped)
 
 -- Adrenaline Boost Tool Script
 local tool = Instance.new("Tool")
-tool.Name = "Adrenaline Boost (NOT WORKED)"
+tool.Name = "Adrenaline Boost(NOT WORKED)"
 tool.RequiresHandle = true
 tool.Parent = game.Players.LocalPlayer.Backpack
 
@@ -841,7 +841,7 @@ Anim:AdjustSpeed(0) --[[DOES LITERALLY NOTHING]]
 
 Anim.TimePosition = startTime
 
-Anim:AdjustSpeed(0.8) --[[Speed Yeah Yeah.]]
+Anim:AdjustSpeed(0.9) --[[Speed Yeah Yeah.]]
 wait(0.0033)
     local ScreenGui = Instance.new("ScreenGui")
     ScreenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
