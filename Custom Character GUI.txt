@@ -179,7 +179,7 @@ tool.Equipped:Connect(onEquipped)
 
 -- Adrenaline Boost Tool Script
 local tool = Instance.new("Tool")
-tool.Name = "Adrenaline Boost"
+tool.Name = "Adrenaline Boost (NOT WORKED)"
 tool.RequiresHandle = true
 tool.Parent = game.Players.LocalPlayer.Backpack
 
