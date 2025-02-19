@@ -601,13 +601,13 @@ s.PlaybackSpeed = 1.8
 s.TimePosition = 0
 s:Play()
 local newAnimation = Instance.new("Animation")
-newAnimation.AnimationId = "rbxassetid://17325254223"
+newAnimation.AnimationId = "rbxassetid://18896229321"
 local newAnimTrack = humanoid:LoadAnimation(newAnimation)
 local startTime = 0
 newAnimTrack:Play()
 newAnimTrack:AdjustSpeed(0)
 newAnimTrack.TimePosition = startTime
-newAnimTrack:AdjustSpeed(1.8)
+newAnimTrack:AdjustSpeed(2.7)
 local boom1 = game.ReplicatedStorage.Resources.KJEffects["spinnerthing"].spinningpartysmoke:Clone()
 boom1.Parent = game.Players.LocalPlayer.Character["Torso"]
     for _, child in ipairs(boom1:GetChildren()) do
