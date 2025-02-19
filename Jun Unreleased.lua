@@ -794,7 +794,7 @@ humanoid.AnimationPlayed:Connect(onAnimationPlayed)
 
 --[[Ultimate Animations]]
 
-loadstring(game:HttpGet("https://pastebin.com/raw/gthQ0iZQ"))()
+loadstring(game:HttpGet("https://pastebin.com/raw/p5Gg5kdf"))()
 
 --[[Wall combo]]
 
