@@ -443,7 +443,7 @@ s:Play()
 
 local AnimAnim = Instance.new("Animation")
 
-AnimAnim.AnimationId = "rbxassetid://16944265635" --[[Find an Id Is Somewhere Idk What's Going On In My Life]]
+AnimAnim.AnimationId = "rbxassetid://18716113810" --[[Find an Id Is Somewhere Idk What's Going On In My Life]]
 
 local Anim = Humanoid:LoadAnimation(AnimAnim)
 
@@ -827,7 +827,7 @@ end
 
 local AnimAnim = Instance.new("Animation")
 
-AnimAnim.AnimationId = "rbxassetid://140164642047188" --[[Find an Id Is Somewhere Idk What's Going On In My Life]]
+AnimAnim.AnimationId = "rbxassetid://18716113810" --[[Find an Id Is Somewhere Idk What's Going On In My Life]]
 
 local Anim = Humanoid:LoadAnimation(AnimAnim)
 
@@ -841,7 +841,7 @@ Anim:AdjustSpeed(0) --[[DOES LITERALLY NOTHING]]
 
 Anim.TimePosition = startTime
 
-Anim:AdjustSpeed(1.8) --[[Speed Yeah Yeah.]]
+Anim:AdjustSpeed(2.4) --[[Speed Yeah Yeah.]]
 wait(0.0033)
     local ScreenGui = Instance.new("ScreenGui")
     ScreenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
