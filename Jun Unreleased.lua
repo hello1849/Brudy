@@ -294,13 +294,13 @@ local s = Instance.new("Sound", game.Players.LocalPlayer.Character.HumanoidRootP
 s.SoundId = "rbxassetid://134762125003958"
 s.Volume = 9
 s.PlaybackSpeed = 1
-s.TimePosition = 3.1
+s.TimePosition = 12
 s:Play()
 local s1 = Instance.new("Sound", game.Players.LocalPlayer.Character.HumanoidRootPart)
 s1.SoundId = "rbxassetid://134762125003958"
 s1.Volume = 9
 s1.PlaybackSpeed = 1
-s1.TimePosition = 3.2
+s1.TimePosition = 12
 s1:Play()
 
 local AnimAnim = Instance.new("Animation")
