@@ -374,12 +374,12 @@ s1:Play()
 
 local AnimAnim = Instance.new("Animation")
 
-AnimAnim.AnimationId = "rbxassetid://16945550029" --[[Find an Id Is Somewhere Idk What's Going On In My Life]]
+AnimAnim.AnimationId = "rbxassetid://18716197426" --[[Find an Id Is Somewhere Idk What's Going On In My Life]]
 
 local Anim = Humanoid:LoadAnimation(AnimAnim)
 
 
-local startTime = 1 --[[The Start Time Bitc]]
+local startTime = 1.2--[[The Start Time Bitc]]
 
 
 Anim:Play()
