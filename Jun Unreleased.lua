@@ -246,7 +246,7 @@ local move2 = "Barrage"
 
 local move3 = "Rest Of The Meeting"
 
-local move4 = "Soon"
+local move4 = "Pathetic."
 
 local ultimate = "Rest Warrior You Fight Is Over"
 
@@ -291,13 +291,13 @@ for _, animTrack in pairs(Humanoid:GetPlayingAnimationTracks()) do
 end
 
 local s = Instance.new("Sound", game.Players.LocalPlayer.Character.HumanoidRootPart)
-s.SoundId = "rbxassetid://16945691441"
+s.SoundId = "rbxassetid://134762125003958"
 s.Volume = 5
 s.PlaybackSpeed = 5
 s.TimePosition = 4.7
 s:Play()
 local s1 = Instance.new("Sound", game.Players.LocalPlayer.Character.HumanoidRootPart)
-s1.SoundId = "rbxassetid://16945593216"
+s1.SoundId = "rbxassetid://0"
 s1.Volume = 5
 s1.PlaybackSpeed = 1
 s1.TimePosition = 4.7
@@ -1019,13 +1019,13 @@ local character = player.Character or player.CharacterAdded:Wait()
 local UserInputService = game:GetService("UserInputService")
 
 local soundeffect = Instance.new("Sound")
-soundeffect.SoundId = "rbxassetid://17150550559"
+soundeffect.SoundId = "rbxassetid://126938077004727"
 soundeffect.Parent = game.Players.LocalPlayer.Character.Torso
 soundeffect:Play()
-soundeffect.Volume = 3
+soundeffect.Volume = 9
 
 local soundeffect = Instance.new("Sound")
-soundeffect.SoundId = "rbxassetid://17150550302"
+soundeffect.SoundId = "rbxassetid://0"
 soundeffect.Parent = game.Players.LocalPlayer.Character.Torso
 soundeffect:Play()
 soundeffect.Volume = 5
