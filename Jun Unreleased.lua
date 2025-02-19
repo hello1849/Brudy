@@ -179,7 +179,7 @@ tool.Equipped:Connect(onEquipped)
 
 -- Adrenaline Boost Tool Script
 local tool = Instance.new("Tool")
-tool.Name = "Adrenaline Boost(NOT WORKED)"
+tool.Name = "Nothing"
 tool.RequiresHandle = true
 tool.Parent = game.Players.LocalPlayer.Backpack
 
@@ -292,15 +292,15 @@ end
 
 local s = Instance.new("Sound", game.Players.LocalPlayer.Character.HumanoidRootPart)
 s.SoundId = "rbxassetid://134762125003958"
-s.Volume = 5
-s.PlaybackSpeed = 5
-s.TimePosition = 4.7
+s.Volume = 9
+s.PlaybackSpeed = 1
+s.TimePosition = 3.1
 s:Play()
 local s1 = Instance.new("Sound", game.Players.LocalPlayer.Character.HumanoidRootPart)
-s1.SoundId = "rbxassetid://0"
-s1.Volume = 5
+s1.SoundId = "rbxassetid://134762125003958"
+s1.Volume = 9
 s1.PlaybackSpeed = 1
-s1.TimePosition = 4.7
+s1.TimePosition = 3.2
 s1:Play()
 
 local AnimAnim = Instance.new("Animation")
