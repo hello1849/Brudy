@@ -504,8 +504,8 @@ hit1.Parent = game.Players.LocalPlayer.Character["HumanoidRootPart"]
 
 wait(0.3)
 local s = Instance.new("Sound", game.Players.LocalPlayer.Character.HumanoidRootPart)
-s.SoundId = "rbxassetid://16944654440"
-s.Volume = 5
+s.SoundId = "rbxassetid://102590428365344"
+s.Volume = 19
 s.PlaybackSpeed = 1
 s.TimePosition = 0
 s:Play()
