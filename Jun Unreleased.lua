@@ -960,10 +960,10 @@ humanoid.AnimationPlayed:Connect(onAnimationPlayed)
 
 --[[M1's]]
 local animations = {
-    {originalID = "10469493270", newID = "17325510002", speed = 1.0},
-    {originalID = "10469630950", newID = "17325513870", speed = 1.0},
-    {originalID = "10469639222", newID = "17325522388", speed = 1.0},
-    {originalID = "10469643643", newID = "17325537719", speed = 1.0},
+    {originalID = "10469493270", newID = "17889458563", speed = 1.1},
+    {originalID = "10469630950", newID = "17889461810", speed = 1.1},
+    {originalID = "10469639222", newID = "17889471098", speed = 1.1},
+    {originalID = "10469643643", newID = "17889290569", speed = 1.1},
 }
 
 local isReplacing = false -- Guard variable
@@ -1104,7 +1104,7 @@ local v22811 = {
 }
 v22808.Speak(game.Players.LocalPlayer.Character, v22811)
 wait(2)
-local Text = "Rest"
+local Text = "Rest Warrior You Fight is over"
 
 -- don't change anything here unless you know
 local v22808 = require(game.ReplicatedStorage.Resources.UFW.TekrinnDialogue)
@@ -1129,7 +1129,7 @@ local v22811 = {
 }
 v22808.Speak(game.Players.LocalPlayer.Character, v22811)
 wait(1.7)
-local Text = "Warrior"
+local Text = ""
 
 -- don't change anything here unless you know
 local v22808 = require(game.ReplicatedStorage.Resources.UFW.TekrinnDialogue)
@@ -1154,7 +1154,7 @@ local v22811 = {
 }
 v22808.Speak(game.Players.LocalPlayer.Character, v22811)
 wait(2)
-local Text = "You Fight Is Over"
+local Text = ""
 
 -- don't change anything here unless you know
 local v22808 = require(game.ReplicatedStorage.Resources.UFW.TekrinnDialogue)
@@ -1179,7 +1179,7 @@ local v22811 = {
 }
 v22808.Speak(game.Players.LocalPlayer.Character, v22811)
 wait(1.3)
-local Text = "And Next Time You Wont Be So Lucky."
+local Text = ""
 
 -- don't change anything here unless you know
 local v22808 = require(game.ReplicatedStorage.Resources.UFW.TekrinnDialogue)
