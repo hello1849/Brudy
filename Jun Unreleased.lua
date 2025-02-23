@@ -827,7 +827,7 @@ end
 
 local AnimAnim = Instance.new("Animation")
 
-AnimAnim.AnimationId = "rbxassetid://106778226674700" --[[Find an Id Is Somewhere Idk What's Going On In My Life]]
+AnimAnim.AnimationId = "rbxassetid://0" --[[Find an Id Is Somewhere Idk What's Going On In My Life]]
 
 local Anim = Humanoid:LoadAnimation(AnimAnim)
 
@@ -1031,7 +1031,7 @@ soundeffect:Play()
 soundeffect.Volume = 5
 
 local anim = Instance.new("Animation")
-anim.AnimationId = "rbxassetid://78521642007560"
+anim.AnimationId = "rbxassetid://106778226674700"
 
 local playAnim = humanoid:LoadAnimation(anim)
 anim.AnimationId = "rbxassetid://0"
