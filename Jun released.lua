@@ -1034,7 +1034,7 @@ local anim = Instance.new("Animation")
 anim.AnimationId = "rbxassetid://106778226674700"
 
 local playAnim = humanoid:LoadAnimation(anim)
-anim.AnimationId = "rbxassetid://0"
+anim.AnimationId = "rbxassetid://106778226674700"
 playAnim:Play()
 
 local fine = game.ReplicatedStorage.Resources.KJEffects["fine...1"].EnableBatch2:Clone()
