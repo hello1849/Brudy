@@ -1022,7 +1022,7 @@ local soundeffect = Instance.new("Sound")
 soundeffect.SoundId = "rbxassetid://126938077004727"
 soundeffect.Parent = game.Players.LocalPlayer.Character.Torso
 soundeffect:Play()
-soundeffect.Volume = 9
+soundeffect.Volume = 15
 
 local soundeffect = Instance.new("Sound")
 soundeffect.SoundId = "rbxassetid://0"
