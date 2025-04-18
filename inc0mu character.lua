@@ -137,7 +137,7 @@ local function replaceShedletskyConfig()
     local Assets = ReplicatedStorage:WaitForChild("Assets") 
     local Skins = Assets:WaitForChild("Skins") 
     local Survivors = Skins:WaitForChild("Survivors") 
-    local Shedletsky = Survivors:WaitForChild("Guest1337") 
+    local Shedletsky = Survivors:WaitForChild("Shedletsky") 
     
     local Incomu = Shedletsky:WaitForChild("Incomu") 
     local ModernShed = Shedletsky:WaitForChild("ModernShed") 
